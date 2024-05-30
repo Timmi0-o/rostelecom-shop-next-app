@@ -2,8 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7e22ce;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6b21a8;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  .bg-main {
+    background-color: #1D2533;
+  }
+  .bg-accent {
+    background-color: #9466ff;
+  }
+  .svg-icon-color {
+    color:#E8E9EA;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .svg-icon-color:hover {
+    color: #7700FF;
+  }
+  .bg-banner {
+    background: radial-gradient(112.11% 111.8% at 100% 0, #4075ff 0, rgba(64, 117, 255, 0) 100%),radial-gradient(111.72% 111.46% at 27% 0, #16d9a6 0, rgba(22, 217, 166, 0) 100%), #9466ff;
+  }
 }
+
+
