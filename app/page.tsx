@@ -1,6 +1,6 @@
+import { Brendlive } from '@/components/layouts/Brendlive'
 import { Category } from '@/components/layouts/Category'
-import { HeatProduct } from '@/components/layouts/HeatProduct'
-import { NewProduct } from '@/components/layouts/NewProduct'
+import { ProductAccent } from '@/components/layouts/ProductAccent'
 import { Container } from '@/components/ui/Container'
 import Image from 'next/image'
 
@@ -37,8 +37,8 @@ export default function Home() {
 				</Container>
 			</div>
 			<Category />
-			<NewProduct />
-			<HeatProduct />
+			<ProductAccent />
+			<Brendlive />
 		</>
 	)
 }

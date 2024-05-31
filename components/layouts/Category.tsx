@@ -6,9 +6,9 @@ export const Category = () => {
 		<>
 			<Section title='Категории' linkCatalog='/'>
 				<div className='flex'>
-					<div className='relative min-w-[357px] size-[736px] mr-[32px] hover:rounded-ss-[12px] cursor-pointer duration-300'>
+					<div className='relative min-w-[357px] size-[736px] mr-[32px] cursor-pointer duration-300'>
 						<Image
-							className='hover:rounded-ss-[32px] cursor-pointer duration-300 hover:opacity-50'
+							className='img-rounded cursor-pointer duration-300 img-rounded'
 							src={'/clothes.png'}
 							alt='Одежда'
 							width={736}
@@ -18,7 +18,7 @@ export const Category = () => {
 					<div className='grid grid-cols-2 gap-[32px] max-w-[736px]'>
 						<div className='relative size-[352px]'>
 							<Image
-								className='hover:rounded-ss-[32px] cursor-pointer duration-300 hover:opacity-50'
+								className='img-rounded cursor-pointer duration-300'
 								src={'/accessories.png'}
 								fill
 								alt=''
@@ -26,7 +26,7 @@ export const Category = () => {
 						</div>
 						<div className='relative size-[352px]'>
 							<Image
-								className='hover:rounded-ss-[32px] cursor-pointer duration-300 hover:opacity-50'
+								className='img-rounded cursor-pointer duration-300'
 								src={'/souvenirs.png'}
 								fill
 								alt=''
@@ -34,7 +34,7 @@ export const Category = () => {
 						</div>
 						<div className='relative w-[736px] h-[352px]'>
 							<Image
-								className='hover:rounded-ss-[32px] cursor-pointer duration-300 hover:opacity-50'
+								className='img-rounded cursor-pointer duration-300'
 								src={'/chancellery.png'}
 								fill
 								alt=''

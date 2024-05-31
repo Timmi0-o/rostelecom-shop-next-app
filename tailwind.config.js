@@ -11,6 +11,10 @@ const config = {
 				'gradient-conic':
 					'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
 			},
+			colors: {
+				'border-accent': '#9466ff',
+				'color-accent': '#9466ff',
+			},
 		},
 	},
 	plugins: [],

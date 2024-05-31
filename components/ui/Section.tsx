@@ -9,6 +9,7 @@ interface SectionProps {
 	breadcrumbs?: [string]
 	children: ReactNode
 	postTitle?: boolean
+	linkCatalogName?: string
 }
 
 export const Section = ({
@@ -17,6 +18,7 @@ export const Section = ({
 	breadcrumbs,
 	children,
 	postTitle,
+	linkCatalogName,
 }: SectionProps) => {
 	return (
 		<Container>
@@ -39,7 +41,9 @@ export const Section = ({
 							<div className='z-10'>
 								<Link href={linkCatalog}>
 									<div className='flex items-center gap-[13px] svg-icon-color '>
-										<p className='text-[16px] font-medium'>Все</p>
+										<p className='text-[16px] font-medium'>
+											{linkCatalogName ? `${linkCatalogName}` : 'Все'}
+										</p>
 										<div className='relative size-[24px]'>
 											<LinkArrow />
 										</div>

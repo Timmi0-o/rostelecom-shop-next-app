@@ -2,7 +2,7 @@ import { Footer } from '@/components/layouts/Footer'
 import { Header } from '@/components/layouts/Header'
 import { rostelecomBasis } from '@/utils/fonts'
 import type { Metadata } from 'next'
-import './globals.css'
+import './globals.scss'
 
 export const metadata: Metadata = {
 	title: 'Rostelecom SHOP',
